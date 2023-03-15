@@ -1,0 +1,14 @@
+server:
+  port: 7777
+
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+data:
+  name: NaN
